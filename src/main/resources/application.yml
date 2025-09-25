@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        #repo visible public
+        git:
+          uri: git@github.com:spring-group-03/config-file-repository-spring-mini-project-group-03.git
+
+server:
+  port: 8888
