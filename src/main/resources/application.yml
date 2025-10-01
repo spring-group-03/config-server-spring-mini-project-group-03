@@ -6,7 +6,7 @@ spring:
       server:
         #repo visible public
         git:
-          uri: git@github.com:spring-group-03/config-file-repository-spring-mini-project-group-03.git
+          uri: https://github.com/spring-group-03/config-file-repository-spring-mini-project-group-03.git
 management:
   endpoints:
     web:
